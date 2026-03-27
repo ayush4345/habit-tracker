@@ -16,9 +16,9 @@ export default function HabitRow({ habit, logs }: HabitRowProps) {
   });
 
   return (
-    <div className="flex items-center justify-between p-4 group bg-white">
+    <div className="flex items-center justify-between p-4 group bg-card">
       <div className="flex-1 min-w-0 pr-4">
-        <h3 className="font-medium text-zinc-900 truncate text-base">
+        <h3 className="font-medium text-card-foreground truncate text-base">
           {habit.name}
         </h3>
       </div>
