@@ -9,7 +9,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Habit Tracker",
+  title: "Lupin's Tracker",
   description: "Minimalist habit tracker",
 };
 

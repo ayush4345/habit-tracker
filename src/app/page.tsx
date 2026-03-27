@@ -9,7 +9,7 @@ export default async function Home() {
       <main className="flex-1 w-full max-w-4xl mx-auto flex flex-col gap-10">
         <header className="flex flex-col gap-1">
           <h1 className="text-3xl font-bold tracking-tight text-foreground">
-            Habit Tracker
+            Lupin's Tracker
           </h1>
           <p className="text-muted-foreground text-sm">
             Minimalist habit tracking.
