@@ -10,7 +10,7 @@ export default function DeleteHabit({ id }: { id: string }) {
     <button
       onClick={() => startTransition(() => deleteHabit(id))}
       disabled={isPending}
-      className="text-zinc-300 hover:text-zinc-900 transition-colors disabled:opacity-50 text-xs"
+      className="text-muted-foreground hover:text-destructive transition-colors disabled:opacity-50 text-xs"
     >
       Delete
     </button>

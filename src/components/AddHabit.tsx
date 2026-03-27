@@ -18,11 +18,11 @@ export default function AddHabit() {
         name="name"
         placeholder="New habit..."
         required
-        className="flex-1 bg-white border border-zinc-200 px-3 py-1.5 text-sm focus:border-indigo-600 outline-none transition-colors"
+        className="flex-1 bg-background border border-border px-3 py-1.5 text-sm focus:border-primary outline-none transition-colors text-foreground"
       />
       <button
         type="submit"
-        className="bg-zinc-900 text-white px-3 py-1.5 text-xs font-medium hover:bg-black transition-colors"
+        className="bg-primary text-primary-foreground px-3 py-1.5 text-xs font-medium hover:opacity-90 transition-colors"
       >
         Add
       </button>
