@@ -26,14 +26,14 @@ export default function DayBubble({ habitId, date, completed }: DayBubbleProps) 
       className={cn(
         "w-6 h-6 rounded-sm border transition-all flex items-center justify-center",
         completed
-          ? "bg-indigo-600 border-indigo-700"
-          : "bg-zinc-100 border-zinc-200 hover:border-zinc-300",
+          ? "bg-indigo-600 border-indigo-700 dark:bg-indigo-500 dark:border-indigo-600"
+          : "bg-muted border-border hover:border-zinc-300 dark:hover:border-zinc-700",
         isPending && "opacity-50"
       )}
       title={date}
     >
       {completed && (
-        <div className="w-1.5 h-1.5 bg-white rounded-full" />
+        <div className="w-1.5 h-1.5 bg-primary-foreground rounded-full" />
       )}
     </button>
   );
