@@ -5,6 +5,7 @@ import { Database } from "@/lib/db";
 import HabitRow from "@/components/HabitRow";
 import AddHabit from "@/components/AddHabit";
 import SummaryTab from "@/components/SummaryTab";
+import ReminderSettings from "@/components/ReminderSettings";
 import { cn } from "@/lib/utils";
 
 interface DashboardTabsProps {
@@ -65,6 +66,8 @@ export default function DashboardTabs({ db }: DashboardTabsProps) {
             <div className="mt-2">
               <AddHabit />
             </div>
+
+            <ReminderSettings />
           </>
         ) : (
           <SummaryTab db={db} />
